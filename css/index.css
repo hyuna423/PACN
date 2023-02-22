@@ -231,14 +231,20 @@ textarea {
   border-radius: 5px;
   width: 215px;
   margin: 0 auto;
-  color: #fff;
   font-weight: 600;
   font-size: 24px;
+  border-color: #3366FF;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #3366FF inset, 0 0 0 0 #3366FF;
+  transition: all 150ms ease-in-out;
 }
 
 #contact .contact_area .con_form input.send:hover{
-
+  box-shadow: 0 0 10px 0 #3366FF inset, 0 0 10px 4px #3366FF;
+  background: #fff;
+  color: #3366FF;
 }
+
 
 /* footer */
 
