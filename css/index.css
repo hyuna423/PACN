@@ -255,7 +255,6 @@ body{
   top: 0;
   left: 0;
   height: 100%;
-  max-width: none !important;
 }
 
 #home .home_wrap{
