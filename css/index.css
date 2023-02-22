@@ -1,13 +1,24 @@
-*{margin:0; padding:0; box-sizing:border-box;}
-    a{text-decoration : none;}
-    a:focus{
-      outline: none;
-    }
-    address{font-style:normal;}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+address {
+  font-style: normal;
+}
 
 
 
-h3{
+h3 {
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 30px;
@@ -27,4 +38,242 @@ h3{
 
 
 
-/*헤더*/
+/*token*/
+#token {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#token .token_area {
+  padding: 80px 0;
+}
+
+#token .token_area h3 {
+  position: relative;
+}
+
+#token .token_area h3::after {
+  position: absolute;
+  content: "";
+  width: 280px;
+  height: 10px;
+  background-color: #3366FF;
+  bottom: -30px;
+  left: 0;
+}
+
+#token .token_area .token_con {
+  border: 5px solid rgba(153, 156, 186, 0.2);
+  padding: 5% 8%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#token .token_area .token_con .con_list {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#token .token_area .token_con .con_list li {
+  width: 100%;
+  background-color: #FBFBFB;
+  padding: 20px 0;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #E4E4E4;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s linear;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+#token .token_area .token_con .con_list li:hover {
+  border-bottom: 3px solid #3366FF;
+}
+
+#token .token_area .token_con .con_img {
+  width: 45%;
+}
+
+#token .token_area .token_con .con_img img {
+  max-width: 100%;
+}
+
+
+/* roadmap */
+#roadmap {
+  background: #3366FF;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+#roadmap .roadmap_area {
+  padding: 80px 0;
+  box-sizing: border-box;
+}
+
+#roadmap .roadmap_area h3 {
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+#roadmap .roadmap_area .road_con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#roadmap .roadmap_area .road_con .con {
+  width: 30%;
+}
+
+#roadmap .roadmap_area .road_con .con ul {
+  position: relative;
+  background: url(../img/roadmap_bg1.png) no-repeat center center;
+  background-size: cover;
+  padding: 10% 5%;
+  border: 30px solid #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s linear;
+}
+
+#roadmap .roadmap_area .road_con .con ul::befotre {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46));
+}
+
+#roadmap .roadmap_area .road_con .con ul:nth-child(2) {
+  background: url(../img/roadmap_bg2.png) no-repeat center center;
+  border: 30px solid #E1E8EA;
+}
+
+#roadmap .roadmap_area .road_con .con ul:nth-child(3) {
+  background: url(../img/roadmap_bg3.png) no-repeat center center;
+  border: 30px solid #E1E8EA;
+
+}
+
+
+#roadmap .roadmap_area .road_con .con ul li {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+#roadmap .roadmap_area .road_con .con ul:hover {
+  transform: scale(1.05);
+}
+
+
+/* contact */
+#contact {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+#contact .contact_area {
+  padding: 80px 0;
+}
+
+#contact .contact_area h3 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#contact .contact_area .con_form {
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+#contact .contact_area .con_form textarea {
+  border: none;
+  height: 200px;
+}
+
+#contact .contact_area .con_form input,
+textarea {
+  width: 100%;
+  background: #FDFDFD;
+  border-bottom: 2px solid #3366FF !important;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px 10px;
+  margin-bottom: 30px;
+  color: #393939;
+  font-size: 14px;
+}
+
+#contact .contact_area .con_form .half_input {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#contact .contact_area .con_form .half_input input {
+  width: 48%;
+}
+
+#contact .contact_area .con_form input.send {
+  display: block;
+  background: #3366FF;
+  border-radius: 5px;
+  width: 215px;
+  margin: 0 auto;
+  color: #fff;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+#contact .contact_area .con_form input.send:hover{
+
+}
+
+/* footer */
+
+footer{
+  padding: 80px 0;
+  background: #F5F5F5;
+  text-align: center;
+}
+
+footer ul{
+  margin-bottom: 30px;
+}
+
+footer ul li{
+  line-height: 2;
+}
+
+footer .footer_icon button{
+
+}
+
+footer .footer_icon button:first-child{
+  margin-right: 3%;
+}
+
+footer .footer_icon button>i{
+  border: 2px solid #999CBA;
+  border-radius: 5px;
+  color: #999CBA;
+  transition: all .2s;
+  padding: 5%;
+}
+
+footer .footer_icon button>i:hover, footer .footer_icon button>i:hover button{
+  color: #3366FF;
+  border: 2px solid #3366FF;
+
+}

@@ -37,71 +37,102 @@
 <body>
 
 
-  <header>
-
-    <div class="">
-
-      <hgroup>
-
-        <h1><img src="img/" alt="logo"></h1>
-
-      </hgroup>
-
-
-      <nav class="">
-        <ul>
-
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-
-        </ul>
-      </nav>
-
-
-      <!--반응형-->
-
-      <div class="">
-
-        <img src="img/" alt="menu_button">
-
-      </div>
-
-      <nav class="">
-
-        <ul>
-
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-
-        </ul>
-
-      </nav>
-
-      <!--반응형 js-->
-      <script type="text/javascript">
-        $(function () {
-          $("").click(function () {
-            $("").animate({ width: "toggle" }, 250);
-          });
-        });
-
-      </script>
-
-    </div>
-
-  </header>
-
   <main>
-    <h3>HELLO</h3>
+    <section id="token">
+      <div class="token_area container">
+        <h3>Tokenomics</h3>
+        <div class="token_con">
+          <ul class="con_list">
+              <li>Coin name:PACN</li>
+              <li>Symbol: PACN</li>
+              <li>Protocol: ERC20</li>
+              <li>Total supply: 370,000,000</li>
+          </ul>
+          <div class="con_img">
+            <img src="img/Tokenomics.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- roadmap -->
+    <section id="roadmap">
+      <div class="roadmap_area container">
+        <h3>RoadMap</h3>
+        <div class="road_con">
+          <div class="con">
+            <ul>
+              <li>Q3 PACN 설립</li>
+              <li>Q4 온라인 미술품거래 <br>
+                플랫폼 프로젝트 계획 수립<br>
+                미술작품 빅데이터 수집</li>
+            </ul>
+            <h4>2022</h4>
+          </div>
+          <div class="con">
+            <ul>
+              <li>Q1 미술작품 공동구매 관련 빅데이터 수집<br>
+                PACN 플랫폼 개발 시작<br>
+                Dapp 개발 시작<br>
+                PACN 프로젝트 SNS 및 각종 채널 개설
+                글로벌 거래소 상장</li>
+              <li>Q2 NFT 인증 서비스 시범테스트<br>
+                작가 DB 확보 및 소속 작가 발굴</li>
+              <li>Q3 해외 및 국내 미술작품 <br>
+                전략적 투자 계획 수립<br>
+                PACN 플랫폼 베타 출시 예정<br>
+                Dapp Ver1 출시 예정<br>
+                플랫폼 NFT 인증 서비스 도입 예정</li>
+              <li>Q4 PACN 프로젝트 PACN 갤러리 런칭 예정<br>
+                PACN 주최 NFT 미술품 거래</li>
+            </ul>
+            <h4>2023</h4>
+            
+          </div>
+          <div class="con">
+            <ul>
+              <li>Q1 AI 기반 아티스트 
+                저작물 판권 관리 예정
+                PACN NFT 미술품 공동구매 1차</li>
+                <li>Q2 미술품 옥션 시스템 런칭 예정</li>
+            </ul>
+            <h4>2024</h4>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact_area container">
+        <h3>Conatct</h3>
+        <div class="con_form">
+          <form class="gform" action="" data-email method>
+            <div class="half_input">
+              <input type="email" value placeholder="E-MAIL" class="email" name="email" required>
+              <input type="text" value placeholder="NAME" class="name" name="name" required>
+            </div>
+            <input type="text" value placeholder="TITLE" class="title" name="title" required>
+            <textarea placeholder="TEXT" id="content" name="content"></textarea>
+
+            <input type="submit" value="SEND" class="send">
+          </form>
+        </div>
+      </div>
+    </section>
+
   </main>
   
   <footer>
+    <ul class="footer">
+      <li>대표이사 </li>
+      <li>주소 </li>
+      <li>고객센터 AM 10:00 - PM 5:00 </li>
+    </ul>
+    <div class="footer_icon">
+      <button type="button" onclick="location.href='' "><i class="xi-telegram xi-3x"></i></button>
+      <button  type="button" onclick="location.href='' "><i class="xi-kakaotalk xi-3x"></i></button>
+    </div>
 
   </footer>
 
