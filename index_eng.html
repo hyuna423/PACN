@@ -41,23 +41,31 @@
 
   <header>
 
-    <div class="">
+    <div class="hd_all">
 
       <hgroup>
 
-        <h1><img src="img/" alt="logo"></h1>
+        <a href="index_eng.html"><h1><img src="img/F_PACN_logo.png" alt="logo"></h1></a>
 
       </hgroup>
 
 
-      <nav class="">
+      <nav class="menu_pc">
         <ul>
 
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
+          <li><a href="#project" class="scroll" onclick="return false;">PACN Project</a></li>
+          <li><a href="#service" class="scroll" onclick="return false;">Service</a></li>
+          <li><a href="#tokenomics" class="scroll" onclick="return false;">Tokenomics</a></li>
+          <li><a href="#roadmap" class="scroll" onclick="return false;">Roadmap</a></li>
+          <li><a href="#contact" class="scroll" onclick="return false;">Contact</a></li>
+          <li class="lang">
+            <a href="index.html">
+              <span class="lang_kor">KOR</span> | 
+            </a>
+            <a href="index_eng.html" class="scroll">  
+              <span class="lang_eng">ENG</span>
+            </a>
+          </li>
 
         </ul>
       </nav>
@@ -65,42 +73,117 @@
 
       <!--반응형-->
 
-      <div class="">
+<!--       <div class="menu_mobile_btn">
 
         <img src="img/" alt="menu_button">
 
-      </div>
+      </div> -->
 
-      <nav class="">
+      <nav class="menu_moblie">
 
         <ul>
 
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
+          <li><a href="#project" class="scroll" onclick="return false;">PACN Project</a></li>
+          <li><a href="#service" class="scroll" onclick="return false;">Service</a></li>
+          <li><a href="#tokenomics" class="scroll" onclick="return false;">Tokenomics</a></li>
+          <li><a href="#roadmap" class="scroll" onclick="return false;">Roadmap</a></li>
+          <li><a href="#contact" class="scroll" onclick="return false;">Contact</a></li>
+          <li class="lang">
+            <a href="index.html">
+              <span class="lang_kor">KOR</span> | 
+            </a>
+            <a href="index_eng.html" class="scroll">  
+              <span class="lang_eng">ENG</span>
+            </a>
+          </li>
 
         </ul>
-
       </nav>
 
       <!--반응형 js-->
-      <script type="text/javascript">
+    <!--   <script type="text/javascript">
         $(function () {
           $("").click(function () {
             $("").animate({ width: "toggle" }, 250);
           });
         });
 
-      </script>
+      </script> -->
 
     </div>
 
   </header>
 
   <main>
+    <section id="home">
 
+      <div class="main_vid">
+        <video autoplay="" muted="" loop="" playsinline="">
+          <source src="vid/main_vid.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="home_wrap">
+        <div class="home_txt">
+          <h2>Leader in piece of art Investment</h2>
+          <h1>
+            <span>P</span>
+            <span>A</span>
+            <span>C</span>
+            <span>N</span>
+          </h1>
+          <div class="home_txt_button">
+            <a href="PACN whitepaper.pdf"><button class="whitepp_kor">White-paper [KOR]</button></a>
+            <a href="PACN whitepaper EN.pdf"><button class="whitepp_eng">White-paper [ENG]</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section id="project">
+      <div class="project_wrap container">
+        <div class="prjct_box" data-aos="fade-up">
+          <h3>PACN Project</h3>
+          <p data-aos="zoom-in">
+            The PACN project is designed to lead the popularization of art ownership through virtualization fairs. <br><br>
+
+            We would like to solve the problem of declining market credibility due to opaque distribution processes <br>
+            such as art reproduction and fraud that occur in the ever-growing art market. <br><br>
+
+            The PACN project offers a wide range of services, including art distribution history management <br>
+            and forgery prevention, art joint sales, art trade and auction bidding, and online and offline exhibitions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="service">
+      <div class="service_wrap container">
+        <h3>Service</h3>
+
+        <p class="service_title_sub">Management of art distribution history and prevention of forgery</p>
+
+        <div class="service_img" >
+          <img src="img/service1_en.jpg" alt="" data-aos="fade-up"
+          data-aos-duration="1000" class="service_pc">
+          <img src="img/service1_ko_mob.jpg" alt="" data-aos="fade-up"
+          data-aos-duration="1000" class="service_m">
+        </div>
+
+        <div class="service_txt" data-aos="fade-up"
+        data-aos-duration="2000">
+          <p>
+            The platform of the PACN project establishes an NFT certification and copyright service that automatically pays a portion of the proceeds<br>
+            to the artist when trading works by specifying a certificate implemented as a smart contract through NFT certification technology.<br>
+            Through this service, we share the concepts of copyright, ownership, and license, and pay fair copyright fees to authors.
+          </p>
+        </div>
+
+      </div>
+    </section>
   </main>
   
   <footer>

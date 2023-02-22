@@ -26,7 +26,7 @@
   <link href="img/favicon.ico" rel="apple-touch-icon">
 
   <!--js-->
-  <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script src="js/menu_scroll.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   
@@ -39,23 +39,31 @@
 
   <header>
 
-    <div class="">
+    <div class="hd_all">
 
       <hgroup>
 
-        <h1><img src="img/" alt="logo"></h1>
+        <a href="index.html"><h1><img src="img/F_PACN_logo.png" alt="logo"></h1></a>
 
       </hgroup>
 
 
-      <nav class="">
+      <nav class="menu_pc">
         <ul>
 
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
+          <li><a href="#project" class="scroll" onclick="return false;">PACN Project</a></li>
+          <li><a href="#service" class="scroll" onclick="return false;">Service</a></li>
+          <li><a href="#tokenomics" class="scroll" onclick="return false;">Tokenomics</a></li>
+          <li><a href="#roadmap" class="scroll" onclick="return false;">Roadmap</a></li>
+          <li><a href="#contact" class="scroll" onclick="return false;">Contact</a></li>
+          <li class="lang">
+            <a href="index.html">
+              <span class="lang_kor">KOR</span> | 
+            </a>
+            <a href="index_eng.html" class="scroll">  
+              <span class="lang_eng">ENG</span>
+            </a>
+          </li>
 
         </ul>
       </nav>
@@ -63,42 +71,118 @@
 
       <!--반응형-->
 
-      <div class="">
+<!--       <div class="menu_mobile_btn">
 
         <img src="img/" alt="menu_button">
 
-      </div>
+      </div> -->
 
-      <nav class="">
+      <nav class="menu_moblie">
 
         <ul>
 
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
+          <li><a href="#project" class="scroll" onclick="return false;">PACN Project</a></li>
+          <li><a href="#service" class="scroll" onclick="return false;">Service</a></li>
+          <li><a href="#tokenomics" class="scroll" onclick="return false;">Tokenomics</a></li>
+          <li><a href="#roadmap" class="scroll" onclick="return false;">Roadmap</a></li>
+          <li><a href="#contact" class="scroll" onclick="return false;">Contact</a></li>
+          <li class="lang">
+            <a href="index.html">
+              <span class="lang_kor">KOR</span> | 
+            </a>
+            <a href="index_eng.html" class="scroll">  
+              <span class="lang_eng">ENG</span>
+            </a>
+          </li>
 
         </ul>
 
       </nav>
 
       <!--반응형 js-->
-      <script type="text/javascript">
+    <!--   <script type="text/javascript">
         $(function () {
           $("").click(function () {
             $("").animate({ width: "toggle" }, 250);
           });
         });
 
-      </script>
+      </script> -->
 
     </div>
 
   </header>
 
   <main>
-    <h3>HELLO</h3>
+    <section id="home">
+
+      <div class="main_vid">
+        <video autoplay="" muted="" loop="" playsinline="">
+          <source src="vid/main_vid.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="home_wrap">
+        <div class="home_txt">
+          <h2>Leader in piece of art Investment</h2>
+          <h1>
+            <span>P</span>
+            <span>A</span>
+            <span>C</span>
+            <span>N</span>
+          </h1>
+          <div class="home_txt_button">
+            <a href="PACN whitepaper.pdf"><button class="whitepp_kor">White-paper [KOR]</button></a>
+            <a href="PACN whitepaper EN.pdf"><button class="whitepp_eng">White-paper [ENG]</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section id="project">
+      <div class="project_wrap container">
+        <div class="prjct_box" data-aos="fade-up">
+          <h3>PACN Project</h3>
+          <p data-aos="zoom-in">
+            PACN 프로젝트는 가상화페를 통해 미술품 소유의 대중화를 선도하기 위해 기획되었습니다. <br><br>
+
+            지속적으로 성장하는 미술품 시장 속에 발생하는 미술품 복제, <br>
+            사기 문제 등 불투명한 유통과정으로 인해 시장의 신뢰도가 하락하는 문제를 해결하고자 합니다. <br><br>
+
+            PACN 프로젝트는 미술품 유통 이력 관리 및 위변조 방지, 미술품 공동 매매, <br>
+            미술품 거래 및 경매 입찰, 온오프라인 전시회 등 다양한 서비스를 제공합니다.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="service">
+      <div class="service_wrap container">
+        <h3>Service</h3>
+
+        <p class="service_title_sub">미술품 유통이력 관리 및 위변조 방지</p>
+
+        <div class="service_img" >
+          <img src="img/sservice1_Ko.jpg" alt="" data-aos="fade-up"
+          data-aos-duration="1000" class="service_pc">
+          <img src="img/service1_ko_mob.jpg" alt="" data-aos="fade-up"
+          data-aos-duration="1000" class="service_m">
+        </div>
+
+        <div class="service_txt" data-aos="fade-up"
+        data-aos-duration="2000">
+          <p>
+            PACN 프로젝트의 플랫폼에서는 미술품 유통 시에 유통에 대한 정보를 NFT 인증 기술을 통해 스마트 컨트랙트로 구현된 인증서를 <br>
+            작품 인증서에 명시하여 작품 거래 시 수익의 일부를 작가에게 자동으로 지급하는 NFT 인증 및 저작권 서비스를 구축합니다. <br>
+            이 서비스를 통해 저작권, 소유권, 사용권의 개념을 공유하고, 작가에게 공정한 저작권료를 지급합니다.
+          </p>
+        </div>
+
+      </div>
+    </section>
   </main>
   
   <footer>
