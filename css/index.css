@@ -25,15 +25,16 @@ h3{
 
 body{
   overflow-x: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-use-select: none;
+  user-select: none;
 }
 
 
 
 /*헤더*/
 
-ul{
-  margin-bottom: 0 !important;
-}
 
 .hd_all {
   position: fixed;
@@ -142,6 +143,7 @@ ul{
   background-color: rgba(255,255,255,.9);
   padding: 5% 0 10%;
   border-radius: 0 0 30px 30px;
+  margin-bottom: 0 !important;
 }
 
 .menu_moblie ul li{
