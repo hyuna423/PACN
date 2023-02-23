@@ -9,6 +9,9 @@
 
 /*노트북*/
   @media screen and (max-width:1024px) {
+    #wallet .wallet_info .wallet_img::after {
+      display: none;
+    }
 }
 
 

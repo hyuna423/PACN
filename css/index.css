@@ -50,6 +50,7 @@ h3{
 #service2 .service2_wrap {
   width: 100%;
   height: 100%;
+  padding: 0 5%;
   margin: 0 auto;
 }
 
@@ -107,6 +108,7 @@ h3{
 #service3 .service3_wrap {
   width: 100%;
   height: 100%;
+  padding: 0 5%;
   margin: 0 auto;
 }
 
@@ -128,7 +130,7 @@ h3{
 #service3 .service3_wrap .service3_info {
   position: relative;
   width: 100%;
-  padding: 4% 0;
+  padding: 4% 10%;
   margin: 5% 0;
   background-color: #fff;
   border-radius: 20px 20px 0 0;
@@ -164,6 +166,7 @@ h3{
 #service4 .service4_wrap {
   width: 100%;
   height: 100%;
+  padding: 0 5%;
   margin-top: 2%;
 }
 #service4 .service4_wrap h5 {
@@ -222,7 +225,11 @@ h3{
 #wallet .wallet_wrap {
   width: 100%;
   height: 100%;
+  padding: 0 5%;
   margin-top: 2%;
+}
+#wallet .wallet_wrap p {
+  line-height: 165%;
 }
 
 #wallet .wallet_info {
@@ -261,10 +268,11 @@ h3{
 #wallet .wallet_info .wallet_text p {
   background-color: #FBFBFB;
   color: #222;
-  padding: 4% 0;
+  padding: 4% 5%;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   text-align: center;
+  line-height: 165%;
   transition: all 0.2s ease-in-out;
 }
 

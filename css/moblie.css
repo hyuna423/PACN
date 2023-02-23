@@ -1,18 +1,58 @@
 
 /*데탑*/
 @media screen and (max-width:1440px) {
+
 }
 
 
 
 /*노트북*/
   @media screen and (max-width:1024px) {
+  /* service2 */
+  #service2 h5 {
+    margin-bottom: 3%;
+  }
+  #service2 .service2_img {
+    margin: 5% 0;
+  }
+  
+  /* wallet */
+  #wallet .wallet_info .wallet_img::after {
+    left: -5%;
+  }
+  #wallet .wallet_info .wallet_text button {
+    padding: 5% 25%;
+  }
 }
 
 
 
   /*아이패드 (768px)*/
   @media screen and (max-width:991px) {
+    /* wallet */
+    #wallet {
+      height: auto;
+    }
+    #wallet .wallet_info {
+      flex-direction: column;
+      align-items: center;
+    }
+    #wallet .wallet_info .wallet_img {
+      width: 70%;
+      margin: 4% 0;
+      height: 450px;
+    }
+    #wallet .wallet_info .wallet_text {
+      width: 100%;
+      text-align: center;
+    }
+    #wallet .wallet_info .wallet_text button {
+      padding: 3% 20%;
+      margin-top: 7%;
+    }
+    #wallet .wallet_info .wallet_img::after {
+      display: none;
+    }
 }
 
 
@@ -20,6 +60,59 @@
 /*모바일*/
 
 @media screen and (max-width:767px) {
+  /* service2 */
+  #service2 h5 {
+    margin-bottom: 6%;
+  }
+  #service2 .service2_img {
+    justify-content: center;
+  }
+  #service2 .service2_img img {
+    max-width: 80%;
+  }
+  #service2 .service2_img .img_w {
+    display: none;
+  }
+  #service2 .service2_img .img_m {
+    display: block;
+  }
+  #service2 .service2_img {
+    border: 7px solid #fff;
+  }
+  #service2 h4 {
+    margin-bottom: 8%;
+  }
+  #service2 .service2_text p {
+    margin-top: 8%;
+  }
+  #service2 .service2_img {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* service3 */
+  #service3 .service3_wrap h5 {
+    margin-bottom: 8%;
+  }
+  #service3 .service3_wrap .service3_info {
+    padding: 10% 10%;
+  }
+
+  /* service4 */
+  #service4 {
+    height: auto;
+  }
+  #service4 .service4_wrap h5 {
+    margin-bottom: 8%;
+  }
+  #service4 .service4_wrap .service4_img {
+    margin: 7% 0;
+  }
+
+  /* wallet */
+  #wallet .wallet_info .wallet_img {
+    width: 90%;
+  }
 
 }
 
@@ -28,7 +121,25 @@
 
 
 @media screen and (max-width:576px) {
+  /* service2 */
+  #service2 h5 {
+    margin-bottom: 5%;
+  }
 
+  /* service4 */
+  #service4 .service4_wrap .service4_img {
+    border: 7px solid #fff;
+  }
+  #service4 .service4_wrap .service4_img::after {
+    top: -69%;
+  }
+
+  /* wallet */
+  #wallet .wallet_info .wallet_img {
+    width: 70%;
+    height: 350px;
+    border: 7px solid #fff;
+  }
 }
 
 
@@ -36,12 +147,26 @@
 /*모바일3 갤럭시*/
 
   @media screen and (max-width:425px) {
+    /* service4 */
+    #service4 .service4_wrap .service4_img::after {
+      display: none;
+    }
 
+    /* wallet */
+    #wallet .wallet_info .wallet_img {
+      height: 250px;
+    }
 }
 
 
 
 /*모바일4 아이폰*/
     @media screen and (max-width:375px) {
-
+      /* service4 */
+      #service4 .service4_wrap h5 {
+        margin-bottom: 10%;
+      }
+      #service4 .service4_wrap .service4_img::after {
+        display: none;
+      }
 }
