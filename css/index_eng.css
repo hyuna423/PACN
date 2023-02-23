@@ -14,6 +14,10 @@
   transition: all .8s;
 }
 
+.service_br{
+  display: none;
+}
+
 /*데탑*/
 @media screen and (max-width:1440px) {
 }
@@ -22,6 +26,13 @@
 
 /*노트북*/
   @media screen and (max-width:1024px) {
+    .service_wrap .service_txt p br {
+      display: none;
+    }
+
+    .service_br{
+      display: block;
+    }
 }
 
 
@@ -51,12 +62,25 @@
 /*모바일3 갤럭시*/
 
   @media screen and (max-width:425px) {
+    
+      /*service*/
 
+  .service_wrap .service_img::before{
+    height: 240px;
+    top: -24%;
+    left: 19%;
+  }
+
+  .service_wrap .service_img::after{
+    top: -24%;
+    right: -47%;
+    height: 240px;
+  }
 }
 
 
 
 /*모바일4 아이폰*/
     @media screen and (max-width:375px) {
-
+ 
 }

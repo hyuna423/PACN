@@ -204,6 +204,12 @@
   .menu_moblie ul li{
     margin-bottom: 14%;
   }
+
+  /*project*/
+
+  .prjct_box{
+    text-align: center;
+  }
 }
 
 
