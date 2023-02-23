@@ -51,13 +51,13 @@
 
 
       <nav class="menu_pc">
-        <ul>
+        <ul class="menu align-center expanded text-center menu_style">
 
-          <li><a href="#project" class="scroll" onclick="return false;">PACN Project</a></li>
-          <li><a href="#service" class="scroll" onclick="return false;">Service</a></li>
-          <li><a href="#tokenomics" class="scroll" onclick="return false;">Tokenomics</a></li>
-          <li><a href="#roadmap" class="scroll" onclick="return false;">Roadmap</a></li>
-          <li><a href="#contact" class="scroll" onclick="return false;">Contact</a></li>
+          <li><a href="#project" class="scroll" onclick="return false;" class="m_menu_a">PACN Project</a></li>
+          <li><a href="#service" class="scroll" onclick="return false;" class="m_menu_a">Service</a></li>
+          <li><a href="#tokenomics" class="scroll" onclick="return false;" class="m_menu_a">Tokenomics</a></li>
+          <li><a href="#roadmap" class="scroll" onclick="return false;" class="m_menu_a">Roadmap</a></li>
+          <li><a href="#contact" class="scroll" onclick="return false;" class="m_menu_a">Contact</a></li>
           <li class="lang">
             <a href="index.html">
               <span class="lang_kor">KOR</span> | 
@@ -70,45 +70,44 @@
         </ul>
       </nav>
 
+      <div class="menu_mobile_btn">
 
-      <!--반응형-->
+        <img src="img/m_btn.png" alt="" class="m_btn">
 
-<!--       <div class="menu_mobile_btn">
-
-        <img src="img/" alt="menu_button">
-
-      </div> -->
+      </div>
 
       <nav class="menu_moblie">
 
-        <ul>
+        <ul class="menu align-center expanded text-center menu_style">
 
-          <li><a href="#project" class="scroll" onclick="return false;">PACN Project</a></li>
-          <li><a href="#service" class="scroll" onclick="return false;">Service</a></li>
-          <li><a href="#tokenomics" class="scroll" onclick="return false;">Tokenomics</a></li>
-          <li><a href="#roadmap" class="scroll" onclick="return false;">Roadmap</a></li>
-          <li><a href="#contact" class="scroll" onclick="return false;">Contact</a></li>
+          <li><a href="#project" class="scroll" onclick="return false;" class="m_menu_a">PACN Project</a></li>
+          <li><a href="#service" class="scroll" onclick="return false;" class="m_menu_a">Service</a></li>
+          <li><a href="#tokenomics" class="scroll" onclick="return false;" class="m_menu_a">Tokenomics</a></li>
+          <li><a href="#roadmap" class="scroll" onclick="return false;" class="m_menu_a">Roadmap</a></li>
+          <li><a href="#contact" class="scroll" onclick="return false;" class="m_menu_a">Contact</a></li>
           <li class="lang">
             <a href="index.html">
-              <span class="lang_kor">KOR</span> | 
+              <span class="lang_kor">KOR</span> |
             </a>
+            
             <a href="index_eng.html" class="scroll">  
-              <span class="lang_eng">ENG</span>
+              <span class="lang_eng"> ENG</span>
             </a>
           </li>
 
         </ul>
+
       </nav>
 
       <!--반응형 js-->
-    <!--   <script type="text/javascript">
+      <script type="text/javascript">
         $(function () {
-          $("").click(function () {
-            $("").animate({ width: "toggle" }, 250);
+          $(".menu_mobile_btn").click(function () {
+            $(".menu_moblie").animate({ width: "toggle" }, 250);
           });
-        });
+      });
 
-      </script> -->
+      </script>
 
     </div>
 
@@ -169,7 +168,7 @@
         <div class="service_img" >
           <img src="img/service1_en.jpg" alt="" data-aos="fade-up"
           data-aos-duration="1000" class="service_pc">
-          <img src="img/service1_ko_mob.jpg" alt="" data-aos="fade-up"
+          <img src="img/service1_en_mob.jpg" alt="" data-aos="fade-up"
           data-aos-duration="1000" class="service_m">
         </div>
 
