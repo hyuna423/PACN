@@ -83,12 +83,12 @@ ul{
 }
 
 .menu_pc ul li.lang a span.lang_kor, .menu_moblie ul li.lang a span.lang_kor{
-  color: #FFD739;
+  color: #FFA41B;
   transition: all .5s;
 }
 
 .menu_pc ul li.lang a span.lang_kor:hover, .menu_moblie ul li.lang a span.lang_kor:hover{
-  color: #FFD739;
+  color: #FFA41B;
 }
 
 .menu_pc ul li.lang a span.lang_eng, .menu_moblie ul li.lang a span.lang_eng{
@@ -96,7 +96,7 @@ ul{
 }
 
 .menu_pc ul li.lang a span.lang_eng:hover, .menu_moblie ul li.lang a span.lang_eng:hover{
-  color: #FFD739;
+  color: #FFA41B;
 }
 
 .menu_pc ul li a{
@@ -203,6 +203,7 @@ ul{
 .menu_style li.lang a:before{
   content: "" !important;
 }
+
 
 .menu_pc .menu_style li.lang a:hover, .menu_style li.lang a:focus {
   color: white;
