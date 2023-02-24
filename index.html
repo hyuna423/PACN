@@ -37,11 +37,241 @@
 <body>
 
 
+  <header>
+
+    <div class="hd_all">
+
+      <hgroup>
+
+        <a href="index.html"><h1><img src="img/F_PACN_logo.png" alt="logo"></h1></a>
+
+      </hgroup>
+
+
+      <nav class="menu_pc">
+        <ul class="menu align-center expanded text-center menu_style">
+
+          <li><a href="#project" class="scroll" onclick="return false;">PACN Project</a></li>
+          <li><a href="#service" class="scroll" onclick="return false;">Service</a></li>
+          <li><a href="#token" class="scroll" onclick="return false;">Tokenomics</a></li>
+          <li><a href="#roadmap" class="scroll" onclick="return false;">Roadmap</a></li>
+          <li><a href="#contact" class="scroll" onclick="return false;">Contact</a></li>
+          <li class="lang">
+            <a href="index.html">
+              <span class="lang_kor">KOR</span> | 
+            </a>
+            <a href="index_eng.html">  
+              <span class="lang_eng">ENG</span>
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+
+
+      <!--반응형-->
+
+      <div class="menu_mobile_btn">
+
+        <img src="img/m_btn.png" alt="" class="m_btn">
+
+      </div>
+
+      <nav class="menu_moblie">
+
+        <ul class="menu align-center expanded text-center menu_style">
+
+          <li><a href="#project" class="scroll" onclick="return false;">PACN Project</a></li>
+          <li><a href="#service" class="scroll" onclick="return false;">Service</a></li>
+          <li><a href="#token" class="scroll" onclick="return false;">Tokenomics</a></li>
+          <li><a href="#roadmap" class="scroll" onclick="return false;">Roadmap</a></li>
+          <li><a href="#contact" class="scroll" onclick="return false;">Contact</a></li>
+          <li class="lang">
+            <a href="index.html">
+              <span class="lang_kor">KOR</span> | 
+            </a>
+            <a href="index_eng.html">  
+              <span class="lang_eng">ENG</span>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--반응형 js-->
+      <script type="text/javascript">
+        $(function () {
+          $(".menu_mobile_btn").click(function () {
+            $(".menu_moblie").animate({ width: "toggle" }, 250);
+          });
+      });
+
+      </script>
+
+    </div>
+
+  </header>
+
   <main>
+
+    <section id="home">
+
+      <div class="main_vid">
+        <video autoplay="" muted="" loop="" playsinline="">
+          <source src="vid/main_vid.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="home_wrap">
+        <div class="home_txt">
+          <h2>Leader in piece of art Investment</h2>
+          <h1>
+            <span>P</span>
+            <span>A</span>
+            <span>C</span>
+            <span>N</span>
+          </h1>
+          <div class="home_txt_button">
+            <a href="PACN whitepaper.pdf"><button class="whitepp_kor">White-paper [KOR]</button></a>
+            <a href="PACN whitepaper EN.pdf"><button class="whitepp_eng">White-paper [ENG]</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section id="project">
+      <div class="project_wrap container">
+        <div class="prjct_box" data-aos="fade-up">
+          <h3>PACN Project</h3>
+          <p data-aos="zoom-in">
+            PACN 프로젝트는 가상화페를 통해 미술품 소유의 대중화를 선도하기 위해 기획되었습니다. <br><br>
+
+            지속적으로 성장하는 미술품 시장 속에 발생하는 미술품 복제, <br>
+            사기 문제 등 불투명한 유통과정으로 인해 시장의 신뢰도가 하락하는 문제를 해결하고자 합니다. <br><br>
+
+            PACN 프로젝트는 미술품 유통 이력 관리 및 위변조 방지, 미술품 공동 매매, <br>
+            미술품 거래 및 경매 입찰, 온오프라인 전시회 등 다양한 서비스를 제공합니다.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="service">
+      <div class="service_wrap container">
+        <h3>Service</h3>
+
+        <p class="service_title_sub">미술품 유통이력 관리 및 위변조 방지</p>
+
+        <div class="service_img" >
+          <img src="img/sservice1_Ko.jpg" alt="" data-aos="fade-up"
+          data-aos-duration="1000" class="service_pc">
+          <img src="img/service1_ko_mob.jpg" alt="" data-aos="fade-up"
+          data-aos-duration="1000" class="service_m">
+        </div>
+
+        <div class="service_txt" data-aos="fade-up"
+        data-aos-duration="2000">
+          <p>
+            PACN 프로젝트의 플랫폼에서는 미술품 유통 시에 유통에 대한 정보를 NFT 인증 기술을 통해 스마트 컨트랙트로 구현된 인증서를 <br>
+            작품 인증서에 명시하여 작품 거래 시 수익의 일부를 작가에게 자동으로 지급하는 NFT 인증 및 저작권 서비스를 구축합니다. <br>
+            이 서비스를 통해 저작권, 소유권, 사용권의 개념을 공유하고, 작가에게 공정한 저작권료를 지급합니다.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+
+       <!-- service2 -->
+       <section id="service2">
+        <div class="service2_wrap container">
+          <div class="service2_title">
+            <h5>Service</h5>
+            <h4>미술품 NFT 공동 구매 및 판매</h4>
+          </div>
+  
+          <div class="service2_img" 
+          data-aos="fade-left">
+            <img class="img_w" src="img/artNFT_kor_pc.png" alt="service2_img_web">
+            <img class="img_m" src="img/artNFT_kor_m.png" alt="service2_img_m">
+          </div>
+  
+          <div class="service2_text" data-aos="fade-up">
+            <p>해외에서만 진행되었던 공동 구매 및 판매 방식을 <br>
+              국내에서 PACN 프로젝트 NFT 공동구매 플랫폼을 통해서 일반인들이 소액으로도 미술품 소유자가 될 수 있는 선도자의 길을 열고자 합니다. <br>
+              참여자들은 구매에 참여하여 미술품 일정부분에 대해서 소유권을 가지게 되며, 이 소유권은 NFT 인증 기술을 통해 인증할 수 있습니다</p>
+          </div>
+  
+        </div>
+      </section>
+  
+      <!-- service3 -->
+      <section id="service3">
+        <div class="service3_wrap container">
+          <h5>Service</h5>
+  
+          <div class="service3_info"
+          data-aos="fade-zoom-in">
+            <h4>미술품 거래 및 경매 입찰</h4>
+            <p>국가를 넘어서 진행되는 미술품 거래는 사기, 위변조 뿐만 아니라,  외화 거래에 따른 환전 수수료, 환율 변경 등의 문제가 있습니다. <br>
+              PACN코인을 이용하면 환전, 외환거래 문제를 해결할 수 있고,  해외송금을 손쉽게 진행 할 수 있습니다. <br>
+              <br>
+              PACN코인을 글로벌거래소에 상장하고 전세계의 이용자들이 구매하고 판매할 수 있게 하여, <br>
+              국가간 글로벌 미술품 거래 및 경매에 유용하게 사용할 수 있는 특징을 가질 수 있습니다.</p>
+          </div>
+        </div>
+      </section>
+  
+      <!-- service4 -->
+      <section id="service4">
+        <div class="service4_wrap container">
+          <h5>Service</h5>
+          <h4>오프라인, 온라인 전시회</h4>
+  
+          <div class="service4_img"
+          data-aos="fade-up"></div>
+  
+          <div class="service4_text">
+            <p>PACN 프로젝트는 미술시장의 대중성을 위해 지속적으로 일반 대중들을 상대로 전시회를 진행하고자 합니다. <br>
+              PACN 프로젝트에서 진행하는 전시회를 통해서 많은 작가들의 미술품들을 일반 대중들에게 공개함으로써 대중들의 미술품에 대한 진입 장벽을 낮출 것입니다.</p>
+          </div>
+  
+        </div>
+      </section>
+  
+      <!-- wallet -->
+      <section id="wallet">
+        <div class="wallet_wrap container" data-aos="fade-up">
+          <h3>Wallet</h3>
+          <p>PACN 프로젝트의 Dapp인 전용 Wallet 을 통해 아래와 같이 서비스를 이용할 수 있습니다.</p>
+  
+          <div class="wallet_info">
+            <div class="wallet_img"
+            data-aos="fade-up">
+          <img src="img/wallet.jpg" alt=""></div>
+            <div class="wallet_text">
+              <p>글로벌 상장 거래소를 통한 쉬운 외화 환전과 수수료 절감</p>
+              <p>해외송금의 대체 수단</p>
+              <p>구매한 NFT 미술품 보관</p>
+              <p>미술품 경매 참여</p>
+  
+              <button><a href></a>View</button>
+            </div>
+          </div>
+  
+        </div>
+      </section>
+  
+
+    <!-- token -->
     <section id="token">
       <div class="token_area container">
         <h3>Tokenomics</h3>
-        <div class="token_con">
+        <div class="token_con" data-aos="fade-up">
           <ul class="con_list">
               <li>Coin name:PACN</li>
               <li>Symbol: PACN</li>
@@ -60,7 +290,7 @@
       <div class="roadmap_area container">
         <h3>RoadMap</h3>
         <div class="road_con">
-          <div class="con">
+          <div class="con" data-aos="flip-right">
             <ul>
               <li>Q3 PACN 설립</li>
               <li>Q4 온라인 미술품거래 <br>
@@ -69,7 +299,7 @@
             </ul>
             <h4>2022</h4>
           </div>
-          <div class="con">
+          <div class="con"  data-aos="flip-left">
             <ul>
               <li>Q1 미술작품 공동구매 관련 빅데이터 수집<br>
                 PACN 플랫폼 개발 시작<br>
@@ -89,7 +319,7 @@
             <h4>2023</h4>
             
           </div>
-          <div class="con">
+          <div class="con" data-aos="flip-right">
             <ul>
               <li>Q1 AI 기반 아티스트 
                 저작물 판권 관리 예정
@@ -106,7 +336,7 @@
     <section id="contact">
       <div class="contact_area container">
         <h3>Conatct</h3>
-        <div class="con_form">
+        <div class="con_form" data-aos="fade-up">
           <form class="gform" action="" data-email method>
             <div class="half_input">
               <input type="email" value placeholder="E-MAIL" class="email" name="email" required>

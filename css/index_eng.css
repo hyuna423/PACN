@@ -1,49 +1,70 @@
-
-
-    
-/*데탑*/
-@media screen and (max-width:1440px) {
+.menu_pc ul li.lang a span.lang_eng,
+.menu_moblie ul li.lang a span.lang_eng {
+  color: #FFA41B;
+  transition: all .5s;
 }
+
+.menu_pc ul li.lang a span.lang_kor {
+  color: white;
+  transition: all .8s;
+}
+
+.menu_moblie ul li.lang a span.lang_kor {
+  color: black;
+  transition: all .8s;
+}
+
+.service_br {
+  display: none;
+}
+
+
+/*데탑*/
+@media screen and (max-width:1440px) {}
 
 
 
 /*노트북*/
-  @media screen and (max-width:1024px) {
+@media screen and (max-width:1024px) {
+
+  .service_wrap .service_txt p br {
+    display: none;
+  }
+
+  .service_br {
+    display: block;
+  }
+
+  #wallet .wallet_info .wallet_img::after {
+    display: none;
+  }
+}
 }
 
 
 
-  /*아이패드 (768px)*/
-  @media screen and (max-width:991px) {
-}
+/*아이패드 (768px)*/
+@media screen and (max-width:991px) {}
 
 
 
 /*모바일*/
 
-@media screen and (max-width:767px) {
-
-}
+@media screen and (max-width:767px) {}
 
 
 /*모바일2*/
 
 
-@media screen and (max-width:576px) {
-
-}
+@media screen and (max-width:576px) {}
 
 
 
 /*모바일3 갤럭시*/
 
-  @media screen and (max-width:425px) {
-
-}
+@media screen and (max-width:425px) {}
 
 
 
 /*모바일4 아이폰*/
-    @media screen and (max-width:375px) {
-
-}
+@media screen and (max-width:375px) {}
