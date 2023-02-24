@@ -74,7 +74,7 @@
 
   #wallet .wallet_info .wallet_img::after {
     left: -1%;
-    top: -78%;
+    top: -71%;
   }
 
   #wallet .wallet_info .wallet_text button {
@@ -145,13 +145,13 @@
   .service_wrap .service_img::before {
     width: 180px;
     height: 250px;
-    top: -13%;
+    top: -15%;
     left: 18%;
   }
 
   .service_wrap .service_img::after {
-    top: -13%;
-    right: -18%;
+    top: -15%;
+    right: -25%;
     width: 180px;
     height: 250px;
   }

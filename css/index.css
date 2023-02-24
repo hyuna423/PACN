@@ -386,12 +386,12 @@ body{
 .service_wrap .service_img::before{
   content: "";
   position: absolute;
-  top: -12%;
+  top: -16%;
   left: 12%;
   transform: translate(-50%,-50%);
   width: 220px;
   height: 320px;
-  background: url(../img/mobile_btn_clip.png) no-repeat;
+  background: url(../img/wallet_item.png) no-repeat;
   background-size: contain;
   z-index: 1;
 }
@@ -399,12 +399,12 @@ body{
 .service_wrap .service_img::after{
   content: "";
   position: absolute;
-  top: -12%;
+  top: -16%;
   right: -8%;
   transform: translate(-50%,-50%);
   width: 220px;
   height: 320px;
-  background: url(../img/mobile_btn_clip.png) no-repeat;
+  background: url(../img/wallet_item.png) no-repeat;
   background-size: contain;
   z-index: 1;
 }
@@ -887,7 +887,7 @@ textarea {
   background: #3366FF;
   border-radius: 5px;
   width: 215px;
-  margin: 0 auto;
+  margin: 30px auto;
   font-weight: 600;
   font-size: 24px;
   border-color: #3366FF;
